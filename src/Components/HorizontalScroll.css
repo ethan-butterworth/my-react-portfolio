@@ -1,3 +1,5 @@
+
+
 .scroll-container {
     overflow-x: auto;
     overflow-y: hidden;
@@ -13,8 +15,8 @@
 }
 
 .section {
-    min-width: 100svw;
-    height: 100svh;
+    min-width: 100vw;
+    height: 100dvh;
     display: inline-block;
     white-space: normal;
     text-align: center;
