@@ -25,7 +25,7 @@ const HorizontalScroll = () => {
           <h2>Career Goals:</h2>
           <p>I'm now looking to move into a front-end developer role, using my problem-solving skills, technical know-how, and passion for building and improving web solutions.</p>
           <h2>Hobbies and Interests:</h2>
-          <p>Outside of work, I'm passionate about Warhammer, enjoying the assembly, painting, and strategy of the hobby. My tech fascination began with the Halo series on Xbox, which led me to build my own PC.</p>
+          <p>My tech fascination first began with the Halo series on Xbox, which led me to build my own PC. These days, I'm passionate about Warhammer, enjoying the assembly, painting, and strategy of the hobby.</p>
           <h2>Help yourself!</h2>
           <div className='about-links'>
             <a href='https://uk.linkedin.com/in/ethan-butterworth-012960185'>LinkedIn</a> 
