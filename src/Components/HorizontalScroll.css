@@ -1,12 +1,7 @@
-body {
-    min-height: 100vh;
-    /* mobile viewport bug fix */
-    min-height: -webkit-fill-available;
-    }
-    
-    html {
-    height: -webkit-fill-available;
-    }
+html, body {
+    overflow: hidden;
+    height: 100%;
+}
 
 .scroll-container {
     overflow-x: auto;
