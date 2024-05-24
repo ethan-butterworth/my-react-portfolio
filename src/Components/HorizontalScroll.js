@@ -15,7 +15,7 @@ const HorizontalScroll = () => {
           <h2>I'm a:</h2>
           <ul>
             <li>Support Engineer at Zuto.</li>
-            <li>Self taught Web-Developer.</li>
+            <li>Self taught Web Developer.</li>
             <li>Passionate designer and creator.</li>
           </ul>
         </section>
