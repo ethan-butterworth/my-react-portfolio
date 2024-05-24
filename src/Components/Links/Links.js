@@ -1,6 +1,6 @@
 import React from 'react'
-import './links.css'
-import mycv from '../Assets/mycv.docx';
+import './Links.css'
+import mycv from './My-Cv.docx';
 
 const Links = () => {
   return (

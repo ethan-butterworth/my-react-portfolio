@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import './Landing.css';
-import mypic from '../Assets/mypic.jpg';
+import mypic from './My-Pic.jpg';
 
 const Landing = () => {
   return (
