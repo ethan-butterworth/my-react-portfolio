@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import './Landing.css';
 import mypic from '../Assets/mypic.jpg';
 
-const HorizontalScroll = () => {
+const Landing = () => {
   return (
     <div className="scroll-container">
       <div className="scroll-content">
