@@ -10,13 +10,13 @@ const HorizontalScroll = () => {
         <section className="section landing">
           <p>Nice to meet you, I'm...</p>
           <h1>Ethan Butterworth</h1>
-          <p>...an amateur Web Developer.</p>
+          <p>...an aspiring Web Developer.</p>
           <img src={mypic} alt='A Picture of Ethan.'></img>
-          <h2>I am:</h2>
+          <h2>I'm a:</h2>
           <ul>
-            <li>A Support Engineer at Zuto.</li>
-            <li>Self-Studying Web Development on Udemy.</li>
-            <li>Passionate about designing and creating things.</li>
+            <li>Support Engineer at Zuto.</li>
+            <li>Self taught Web-Developer.</li>
+            <li>Passionate designer and creator.</li>
           </ul>
         </section>
         <section className="section about">
