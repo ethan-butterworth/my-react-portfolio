@@ -10,6 +10,7 @@
 body {
     font-family: 'Handlee', cursive;
     color: #FFF9D0;
+    background: linear-gradient(to right, #5AB2FF, #A0DEFF);
 }
 
 h1 {

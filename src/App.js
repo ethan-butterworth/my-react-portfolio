@@ -1,10 +1,12 @@
 import React from 'react';
-import HorizontalScroll from './Components/HorizontalScroll';
+import Landing from './Components/Landing/Landing.js';
+import About from './Components/About/About.js'
 
 const App = () => {
   return (
     <div className="App">
-      <HorizontalScroll />
+      <Landing />
+      <About />
     </div>
   );
 }
