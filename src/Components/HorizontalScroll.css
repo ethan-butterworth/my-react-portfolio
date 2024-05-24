@@ -30,34 +30,6 @@ html, body {
     flex-direction: column;
 }
 
-.scroll-container {
-    scroll-behavior: smooth;
-}
-
-.scroll-button {
-    position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #FFF9D0;
-    opacity: 90%;
-    color: #A0DEFF;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.scroll-button:hover {
-    background-color: #CAF4FF;
-}
-
-.scroll-button:first-of-type {
-    left: 0;
-}
-
-.scroll-button:last-of-type {
-    right: 0;
-}
-
 img {
     width: 200px;
     height: auto;

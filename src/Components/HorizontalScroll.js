@@ -1,17 +1,35 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import './HorizontalScroll.css';
-import mypic from '../Assets/Images/mypic.jpg'
-import mycv from '../Assets/mycv.docx'
+import mypic from '../Assets/Images/mypic.jpg';
+import mycv from '../Assets/mycv.docx';
 
 const HorizontalScroll = () => {
+  const scrollContainerRef = useRef(null);
+
+  useEffect(() => {
+    const handleWheel = (event) => {
+      if (scrollContainerRef.current) {
+        scrollContainerRef.current.scrollLeft += event.deltaY;
+        event.preventDefault();
+      }
+    };
+
+    const scrollContainer = scrollContainerRef.current;
+    scrollContainer.addEventListener('wheel', handleWheel);
+
+    return () => {
+      scrollContainer.removeEventListener('wheel', handleWheel);
+    };
+  }, []);
+
   return (
-    <div className="scroll-container">
+    <div className="scroll-container" ref={scrollContainerRef}>
       <div className="scroll-content">
         <section className="section landing">
           <p>Nice to meet you, I'm...</p>
           <h1>Ethan Butterworth</h1>
           <p>...an aspiring Web Developer.</p>
-          <img src={mypic} alt='A Picture of Ethan.'></img>
+          <img src={mypic} alt='A Picture of Ethan.' />
           <h2>I'm a:</h2>
           <ul>
             <li>Support Engineer at Zuto.</li>
@@ -40,34 +58,11 @@ const HorizontalScroll = () => {
           <a>Work in progress.</a>
         </section>
         <section className="section">
-
+          {/* Empty section for additional content */}
         </section>
       </div>
-      <button className="scroll-button left-button" onClick={() => scroll('left')}>&lt;</button>
-      <button className="scroll-button right-button" onClick={() => scroll('right')}>&gt;</button>
     </div>
   );
 }
-
-const scroll = (direction) => {
-  const container = document.querySelector('.scroll-container');
-  const scrollAmount = direction === 'left' ? -window.innerWidth : window.innerWidth;
-  container.scrollBy({
-    left: scrollAmount,
-    behavior: 'smooth'
-  });
-}
-
-function transformScroll(event) {
-  if (!event.deltaY) {
-    return;
-  }
-
-  event.currentTarget.scrollLeft += event.deltaY + event.deltaX;
-  event.preventDefault();
-}
-
-var element = document.scrollingElement || document.documentElement;
-element.addEventListener('wheel', transformScroll);
 
 export default HorizontalScroll;
