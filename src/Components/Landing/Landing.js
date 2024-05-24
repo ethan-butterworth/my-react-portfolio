@@ -1,12 +1,11 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import './Landing.css';
 import mypic from '../../Assets/My-Pic.jpg'
 
 const Landing = () => {
   return (
-    <div className="scroll-container">
-      <div className="scroll-content">
-        <section className="section landing">
+    <div>
+        <section className="section">
           <p>Nice to meet you, I'm...</p>
           <h1>Ethan Butterworth</h1>
           <p>...an aspiring Web Developer.</p>
@@ -19,7 +18,6 @@ const Landing = () => {
           </ul>
         </section>
       </div>
-    </div>
   );
 }
 

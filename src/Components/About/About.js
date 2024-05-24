@@ -4,7 +4,7 @@ import './About.css'
 const About = () => {
   return (
     <div>
-        <section className="section about">
+        <section className="section">
           <h2>Professional Summary:</h2>
           <p>With over five years in IT Support, I excel at diagnosing and resolving tech issues, ensuring smooth operations, and providing excellent customer service. I'm adept at managing installations and quickly learning new technologies to enhance user satisfaction.</p>
           <h2>Career Goals:</h2>

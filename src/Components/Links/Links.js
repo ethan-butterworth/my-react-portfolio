@@ -5,7 +5,7 @@ import mycv from '../../Assets/My-Cv.docx';
 const Links = () => {
   return (
     <div>
-        <section className="section links">
+        <section className="section">
             <h2>Help yourself!</h2>
             <div className='about-links'>
                 <a href='https://uk.linkedin.com/in/ethan-butterworth-012960185' target='_blank'>LinkedIn</a> 
