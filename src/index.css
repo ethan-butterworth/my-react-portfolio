@@ -9,8 +9,6 @@
 
 body {
     font-family: 'Handlee', cursive;
-    color: #FFF9D0;
-    background: linear-gradient(to right, #5AB2FF, #A0DEFF);
 }
 
 h1 {
@@ -33,10 +31,10 @@ ul {
 a {
     text-decoration: none;
     font-size: 1.5rem;
-    color: #FFF9D0;
     font-style: italic;
 }
 
 a:hover {
     color: #A0DEFF;
 }
+
