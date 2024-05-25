@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <div className='Nav'>
         <nav>
-            <a>Navbar wip</a>
+          
         </nav>
     </div>
   )

@@ -1,0 +1,10 @@
+.about-links {
+    display: flex;
+}
+
+.about-links img {
+    height: 20px;
+    width: auto;
+    border: 0px;
+    fill: white;
+}
