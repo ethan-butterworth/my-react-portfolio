@@ -1,9 +1,14 @@
+body {
+    background: linear-gradient(to right, #5AB2FF, #A0DEFF);
+}
+
 .Nav {
     width: 100vw;
     height: 10vh;
     position: sticky;
     top: 0;
-    background-color: black;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 nav {
