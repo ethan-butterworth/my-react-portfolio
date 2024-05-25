@@ -3,13 +3,9 @@
     height: 10vh;
     position: sticky;
     top: 0;
-    background-color: white;
+    background-color: black;
 }
 
 nav {
     display: flex;
-}
-
-nav a {
-    color: #5AB2FF;
 }
