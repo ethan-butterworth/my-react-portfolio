@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <div className='Nav'>
         <nav>
-          
+
         </nav>
     </div>
   )
