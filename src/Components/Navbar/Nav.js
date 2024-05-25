@@ -1,9 +1,12 @@
 import React from 'react'
+import './Nav.css'
 
 const Nav = () => {
   return (
-    <div>
-        
+    <div className='Nav'>
+        <nav>
+            <a>Navbar wip</a>
+        </nav>
     </div>
   )
 }
