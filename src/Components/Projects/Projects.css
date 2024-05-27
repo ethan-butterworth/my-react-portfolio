@@ -1,16 +1,16 @@
 .project-item {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .project-item img {
     background-color: lightgrey;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border: solid 1px white;
 }
