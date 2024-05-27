@@ -1,9 +1,9 @@
 import React from 'react'
 import './Links.css'
-import mycv from '../../Assets/My-Cv.docx';
-import linkedinicon from '../../Assets/linkedin.svg'
-import githubicon from '../../Assets/github.svg'
-import cvicon from '../../Assets/file-earmark-person-fill.svg'
+import mycv from '../../Assets/Media/My-CV.docx';
+import linkedinicon from '../../Assets/Media/Linked-In.svg'
+import githubicon from '../../Assets/Media/Git-Hub.svg'
+import cvicon from '../../Assets/Media/Resume.svg'
 
 const Links = () => {
   return (

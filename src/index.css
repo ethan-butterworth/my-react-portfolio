@@ -59,10 +59,3 @@ a {
 a:hover {
     color: lightgrey;
 }
-
-.mypic {
-    width: 200px;
-    height: auto;
-    border-radius: 50%;
-    border: solid white 1px;
-}

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Projects.css'
-import oldportfoliopreview from '../../Assets/oldportfoliopreview.png'
+import oldportfoliopreview from '../../Assets/Images/Old-Portfolio-Preview.png'
 
 const Projects = () => {
   return (
