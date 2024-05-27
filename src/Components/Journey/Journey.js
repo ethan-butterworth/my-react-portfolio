@@ -16,9 +16,6 @@ const Journey = () => {
     <div id='journey'>
       <section className="section">
         <h2>My Journey:</h2>
-        <div className='text'>
-          <p>{paragraphs[currentParagraph]}</p>
-        </div>
         <div className='buttons'>
           {paragraphs.map((_, index) => (
             <button key={index} onClick={() => setCurrentParagraph(index)}>
@@ -26,6 +23,7 @@ const Journey = () => {
             </button>
           ))}
         </div>
+        <p>{paragraphs[currentParagraph]}</p>
       </section>
     </div>
   );
