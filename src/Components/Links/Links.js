@@ -7,7 +7,7 @@ import cvicon from '../../Assets/file-earmark-person-fill.svg'
 
 const Links = () => {
   return (
-    <div>
+    <div id='links'>
         <section className="section">
             <h2>Help yourself!</h2>
             <div className='about-links'>

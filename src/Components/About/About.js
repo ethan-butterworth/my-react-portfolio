@@ -4,7 +4,7 @@ import mypic from '../../Assets/My-Pic.jpg'
 
 const About = () => {
   return (
-    <div>
+    <div id='about'>
         <section className="section">
         <img src={mypic} alt='A Picture of Ethan.' />
           <h2>I'm a:</h2>

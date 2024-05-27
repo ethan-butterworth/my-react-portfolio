@@ -4,7 +4,7 @@ import landing from '../../Assets/Landing.jpg'
 
 const Landing = () => {
   return (
-    <div>
+    <div id='landing'>
         <section className="section" style={{ backgroundImage: `url(${landing})` }}>
           <p>Nice to meet you, I'm...</p>
           <h1>Ethan Butterworth</h1>

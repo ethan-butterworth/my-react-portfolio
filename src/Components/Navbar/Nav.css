@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(to right, #5AB2FF, #A0DEFF);
+    color: white;
 }
 
 .Nav {
@@ -13,4 +14,23 @@ body {
 
 nav {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+nav a {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
 }

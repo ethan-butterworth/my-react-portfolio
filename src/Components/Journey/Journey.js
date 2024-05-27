@@ -2,7 +2,7 @@ import React from 'react'
 
 const Journey = () => {
   return (
-    <div>
+    <div id='journey'>
         <section className="section">
           <h2>My Journey:</h2>
           <p>My tech fascination first began with the Halo series on Xbox, which led me to build my own PC. These days, I'm passionate about Warhammer, enjoying the assembly, painting, and strategy of the hobby.</p>
