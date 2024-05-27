@@ -12,8 +12,8 @@ const Links = () => {
             <h2>Help yourself!</h2>
             <div className='about-links'>
                 <a href='https://uk.linkedin.com/in/ethan-butterworth-012960185' target='_blank'><img src={linkedinicon}></img> LinkedIn</a> 
-                <a href='https://github.com/EthanButterworth' target='_blank'><img src={githubicon}></img> Github</a>
                 <a href={mycv} download target='_blank'><img src={cvicon}></img> Resume</a>
+                <a href='https://github.com/EthanButterworth' target='_blank'><img src={githubicon}></img> Github</a>
             </div>
         </section>
     </div>

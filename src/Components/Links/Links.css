@@ -1,5 +1,6 @@
 .about-links {
     display: flex;
+    flex-direction: column;
 }
 
 .about-links img {
