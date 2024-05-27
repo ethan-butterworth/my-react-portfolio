@@ -6,9 +6,12 @@ const Projects = () => {
     <div id='projects'>
         <section className="section">
             <h2>Projects</h2>
-            <a>Work in progress.</a>
-            <a>Work in progress.</a>
-            <a>Work in progress.</a>
+            <div className='project-item'>
+              <a><img></img>Work in progress.</a>
+            </div>
+            <div className='project-item'>
+              <a><img></img>Work in progress.</a>
+            </div>
         </section>
     </div>
   )

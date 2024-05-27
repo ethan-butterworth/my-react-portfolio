@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div id='about'>
         <section className="section">
-        <img src={mypic} alt='A Picture of Ethan.' />
+        <img className='mypic' src={mypic} alt='A Picture of Ethan.' />
           <h2>I'm a:</h2>
           <ul>
             <li>Support Engineer at Zuto.</li>

@@ -1,0 +1,15 @@
+.project-item {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.project-item img {
+    background-color: lightgrey;
+    width: 250px;
+    height: 250px;
+}
