@@ -1,0 +1,15 @@
+button {
+    background: none;
+    border: none;
+    padding: 1em;
+    color: white;
+}
+
+button:hover {
+    color: #5AB2FF;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
