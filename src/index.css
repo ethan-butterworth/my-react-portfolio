@@ -30,8 +30,8 @@ body {
     background-repeat: no-repeat;
 }
 
-.section > * {
-    margin: 0 10px;
+#landing .section {
+    height: 90vh;
 }
 
 h1 {

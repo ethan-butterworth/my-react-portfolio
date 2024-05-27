@@ -23,7 +23,9 @@ const Journey = () => {
             </button>
           ))}
         </div>
-        <p>{paragraphs[currentParagraph]}</p>
+        <div className='container'>
+          <p>{paragraphs[currentParagraph]}</p>
+        </div>
       </section>
     </div>
   );
