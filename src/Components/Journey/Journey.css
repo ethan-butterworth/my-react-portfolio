@@ -6,7 +6,7 @@ button {
 }
 
 button:hover {
-    color: #5AB2FF;
+    color: lightgrey;
 }
 
 .buttons {
