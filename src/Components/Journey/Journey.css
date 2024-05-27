@@ -13,3 +13,7 @@ button:hover {
     display: flex;
     flex-direction: row;
 }
+
+.text {
+    height: 50vh;
+}
