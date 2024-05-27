@@ -8,6 +8,11 @@
     overflow-x: clip;
 }
 
+body {
+    background: linear-gradient(to right, #5AB2FF, #A0DEFF);
+    color: white;
+}
+
 .section {
     height: 100vh;
     width: 100vw;
@@ -20,8 +25,6 @@
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
-    background: linear-gradient(to right, #5AB2FF, #A0DEFF);
-    color: white;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
