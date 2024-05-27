@@ -8,9 +8,9 @@ const Projects = () => {
         <section className="section">
           <h2>Projects</h2>
           <div className='project-item'>
-            <a href='https://ethanbutterworth.github.io/Ethans-Minis/' target='_blank' alt='A preview of my miniature painting website.'>
+            <a href='' target='_blank' alt=''>
               <img></img>
-              <p>Ethans Minis (WIP)</p>
+              <p>WIP</p>
             </a>
           </div>
           <div className='project-item'>
