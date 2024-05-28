@@ -1,0 +1,12 @@
+.quote h2 {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.quote p {
+    font-style: italic;
+}
+
+.quote .container {
+    width: 100vw;
+}
