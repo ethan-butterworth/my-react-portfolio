@@ -26,6 +26,12 @@ const Projects = () => {
               <p>WIP</p>
             </a>
           </div>
+          <div className='project-item hidden'>
+            <a href='' target='_blank' alt=''>
+              <img></img>
+              <p>WIP</p>
+            </a>
+          </div>
           </div>
         </section>
     </div>

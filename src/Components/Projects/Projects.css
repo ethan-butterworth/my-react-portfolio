@@ -8,12 +8,26 @@
     margin-bottom: 20px;
 }
 
+@media only screen and (min-width: 1024px) {
+    .project-item {
+        height: 300px;
+        width: 300px;
+    }
+  }
+
 .project-item img {
     background-color: lightgrey;
     width: 200px;
     height: 200px;
     border: solid 1px white;
 }
+
+@media only screen and (min-width: 1024px) {
+    .project-item img {
+        height: 250px;
+        width: 250px;
+    }
+  }
 
 @media only screen and (max-width: 1024px) {
     .hidden {

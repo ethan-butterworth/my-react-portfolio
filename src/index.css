@@ -8,6 +8,12 @@
     overflow-x: clip;
 }
 
+@media only screen and (min-width: 1024px) {
+    * {
+        font-size: 1.2rem;
+    }
+  }
+
 body {
     background: linear-gradient(to right, #5AB2FF, #A0DEFF);
     color: white;
@@ -47,10 +53,22 @@ h1 {
     font-size: 2rem;
 }
 
+@media only screen and (min-width: 1024px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+  }
+
 h2 {
     font-size: 1.5rem;
     text-decoration: underline;
 }
+
+@media only screen and (min-width: 1024px) {
+    h2 {
+        font-size: 1.7rem;
+    }
+  }
 
 ul {
     list-style-type: none;
@@ -61,6 +79,12 @@ a {
     font-size: 1.5rem;
     color: white;
 }
+
+@media only screen and (min-width: 1024px) {
+    a {
+        font-size: 1.7rem;
+    }
+  }
 
 a:hover {
     color: lightgrey;
