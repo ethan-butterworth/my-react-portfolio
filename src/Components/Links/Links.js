@@ -9,7 +9,7 @@ const Links = () => {
   return (
     <div id='links'>
         <section className="section">
-            <h2>Help yourself!</h2>
+            <h2>Professional Links:</h2>
             <div className='about-links'>
                 <a href='https://uk.linkedin.com/in/ethan-butterworth-012960185' target='_blank'><img src={linkedinicon}></img> LinkedIn</a> 
                 <a href={mycv} download target='_blank'><img src={cvicon}></img> Resume</a>

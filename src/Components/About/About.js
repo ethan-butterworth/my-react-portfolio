@@ -7,7 +7,7 @@ const About = () => {
     <div id='about'>
         <section className="section">
           <img className='mypic' src={mypic} alt='A Picture of Ethan.' />
-          <h2>I'm a:</h2>
+          <h2>About Me:</h2>        
           <ul>
             <li>Support Engineer at Zuto.</li>
             <li>Self taught Web Developer.</li>

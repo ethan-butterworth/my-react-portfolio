@@ -20,7 +20,7 @@ body {
 }
 
 .section {
-    height: 100vh;
+    height: auto;
     width: 100vw;
     display: inline-block;
     text-align: center;
@@ -34,13 +34,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-top: 10vh;
 }
-
-@media only screen and (min-width: 1024px) {
-    .section {
-        height: 60vh;
-    }
-  }
 
 #landing .section {
     height: 90vh;
@@ -55,7 +50,7 @@ h1 {
 
 @media only screen and (min-width: 1024px) {
     h1 {
-        font-size: 2.2rem;
+        font-size: 4rem;
     }
   }
 
