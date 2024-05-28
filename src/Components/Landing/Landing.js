@@ -7,9 +7,9 @@ const Landing = () => {
     <div id='landing'>
         <section className="section" style={{ backgroundImage: `url(${landing})` }}>
           <div className='fadeInUp-animation'>
-          <p>Nice to meet you, I'm...</p>
-          <h1>Ethan Butterworth</h1>
-          <p>...an aspiring Web Developer.</p>
+            <p>Nice to meet you, I'm...</p>
+            <h1>Ethan Butterworth</h1>
+            <p>...an aspiring Web Developer.</p>
           </div>
         </section>
       </div>
