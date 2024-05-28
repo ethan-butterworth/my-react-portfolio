@@ -14,3 +14,16 @@
     height: 200px;
     border: solid 1px white;
 }
+
+@media only screen and (max-width: 1024px) {
+    .hidden {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .project-container {
+      display: flex;
+      flex-direction: row;
+    }
+  }
