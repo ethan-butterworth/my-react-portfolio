@@ -1,7 +1,11 @@
 .quote p {
     font-style: italic;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
-.quote .container {
-    width: 90vw;
-}
+@media only screen and (max-width: 1024px) {
+    .quote .container {
+        width: 90vw;
+    }
+  }

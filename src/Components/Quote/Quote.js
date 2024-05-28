@@ -6,8 +6,7 @@ const Quote = () => {
     <div>
         <section className='section quote'>
             <div className='container'>
-                <p>"Failure is only the opportunity to begin again, only this time more wisely."</p>
-                <p> — Uncle Iroh</p>
+                <p>"Failure is only the opportunity to begin again, only this time more wisely."<br />— Uncle Iroh</p>
             </div>
         </section>
     </div>
