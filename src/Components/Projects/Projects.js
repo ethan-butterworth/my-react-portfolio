@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <div id='projects'>
         <section className="section">
-          <h2>My Projects</h2>
+          <h2>My Projects:</h2>
           <div className='project-container'>
             <div className='project-item'>
               <a href='https://ethanbutterworth.github.io/My-Portfolio/' target='_blank' alt='A preview of my old portfolio website.'>
