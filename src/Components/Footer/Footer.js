@@ -6,7 +6,7 @@ const Footer = () => {
     <div>
     <section className="section">
         <div className='footer'>
-          <p><span>Designed and developed by</span> Ethan Butterworth.</p>
+          <p><span>Designed and developed by<br /></span> Ethan Butterworth.</p>
         </div>
       </section>
     </div>
