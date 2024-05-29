@@ -10,7 +10,6 @@ const Nav = () => {
           <a href='#about'>About</a>
           <a href='#journey'>Journey</a>
           <a href='#projects'>Projects</a>
-          <a href='#links'>Links</a>
           <p>|</p>
         </nav>
     </div>

@@ -1,0 +1,22 @@
+.CV {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10vh;
+}
+
+.CV a {
+    font-size: 1rem; 
+}
+
+@media only screen and (min-width: 1024px) {
+    .CV a {
+        font-size: 1.2rem;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .CV img {
+        height: 18px;
+    }
+  }

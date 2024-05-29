@@ -6,10 +6,50 @@
     backdrop-filter: blur(5px);
     box-shadow: 0 0 4px 2px rgba(0,0,0,.2);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
 }
 
+@media only screen and (max-width: 1024px) {
+    .footer {
+        flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .footer a {
+        padding: 5px;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .footer .links {
+        padding-bottom: 5px;
+    }
+  }
+
 .footer span {
-    color: lightgrey;
+    color: grey;
 }
+
+@media only screen and (min-width: 1024px) {
+    .footer span {
+        padding-left: 1em;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .footer a {
+        padding: 0 1em;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .footer img {
+        height: 23px;
+    }
+  }
